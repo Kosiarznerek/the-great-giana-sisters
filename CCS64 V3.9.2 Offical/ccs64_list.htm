@@ -1,0 +1,785 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>CCS64 V3 Bug/Enhancement List</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"Body Text Indent Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-link:"Body Text Indent 2 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:54.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.BodyTextIndentChar
+	{mso-style-name:"Body Text Indent Char";
+	mso-style-link:"Body Text Indent";}
+span.BodyTextIndent2Char
+	{mso-style-name:"Body Text Indent 2 Char";
+	mso-style-link:"Body Text Indent 2";}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-link:"Plain Text";
+	font-family:Consolas;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+span.postbody1
+	{mso-style-name:postbody1;
+	letter-spacing:13.5pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:841.9pt 595.3pt;
+	margin:89.85pt 72.0pt 89.85pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-GB link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<h1 align=center style='text-align:center'>CCS64 V3 Bug-Fixes/Enhancements List</h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:-99.75pt;border-collapse:collapse'>
+ <tr>
+  <td width=340 valign=top style='width:9.0cm;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 align=center style='text-align:center'><span style='font-weight:normal'>&nbsp;</span><span
+  style='font-size:18.0pt'>CCS64 V3 Release Build:</span></h1>
+  </td>
+  <td width=210 valign=top style='width:157.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 align=center style='text-align:center'><span style='font-size:18.0pt'>3.9.2</span></h1>
+  </td>
+ </tr>
+ <tr>
+  <td width=340 valign=top style='width:9.0cm;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 align=center style='text-align:center'><span style='font-size:18.0pt'>CCS64
+  V3 Release Date:</span></h1>
+  </td>
+  <td width=210 valign=top style='width:157.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 align=center style='text-align:center'><span style='font-size:18.0pt'>2
+  July 2015</span></h1>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<h1><span style='font-weight:normal'>&nbsp;</span></h1>
+
+<h1 align=center style='text-align:center'><u>CCS64 V3 Bug-Fixes Made</u></h1>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><u><span
+style='font-size:16.0pt'>1.&nbsp; User-Discovered Bug-Fixes Made :</span></u></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Kernel-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
+program that should install an interrupt-driven music player, in order to play
+music, just quits back to BASIC instead.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Device-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Various
+problems with T64 files &#8211; the file-pointer does not move on to the next
+file in a multi-part T64 file and file-names are not interpreted correctly.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+loading a file with the &quot;LOAD&quot; command, the &quot;SEARCHING FOR&quot;
+and &quot;LOADING&quot; lines of text do not appear.&nbsp; This can cause
+problems with programs that put LOAD commands on the screen, and then execute
+them, by filling the keyboard buffer.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+game Galleon crashes, whilst it is loading.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+game Continental Circus crashes, whilst it is loading.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+game Bombuzal does not load, from a TAP file.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+demo Error 23 crashes, whilst it is loading.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+demo +H2K crashes, whilst it is loading.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+using the Simons BASIC cartridge with the Printer emulation, there are some
+problems. &nbsp;Firstly, no MS-DOS text file is produced, after you issue a
+&quot;CLOSE #n&quot; command.&nbsp; Secondly, when you perform a &quot;PRINT
+#n&quot; command, you get the BASIC error message &quot;? DEVICE NOT PRESENT
+ERROR&quot;, but not when you give the &quot;PRINT #n&quot; command a text
+string to print.&nbsp; The whole procedure works fine when using the standard
+BASIC.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Various
+problems with the The Final Cartridge III (TFC-III) cartridge.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Ex-<span
+class=postbody1><span style='letter-spacing:0pt'>DOS memory mirroring on the
+1541 Device ($2000 - $27FF) is not supported properly.</span></span></p>
+
+<p class=MsoPlainText style='margin-left:18.0pt;text-align:justify'><span
+style='font-family:Symbol'>&middot;</span><span style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;
+</span><span style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Setting
+the Tape Motor on/off doesn't work properly.&nbsp; When CCS64 re-sets, the tape
+re-winds automatically back to the beginning (which it shouldn't do, because
+there is usually another game to load after the one loaded before).&nbsp; The
+Play button works, but the Motor button stays locked to off (so the Tape
+Counter cannot be changed manually).</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b>&nbsp;&nbsp;</b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Game-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the game Haunted House, your ghost dies, before you can really play the game.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the game Frankie Goes To Hollywood, when you enter a sub-game, the emulator
+hangs.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the game Road Raiders, after exiting out of the building that is downwards and
+to the east (where there is an arrow pointing), the emulator hangs.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=postbody1><span style='letter-spacing:0pt'>In the game Platoon, there is
+a small horizontal white line, below the Platoon title.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+<span class=postbody1><span style='letter-spacing:0pt'>the demo Coma Light
+8/Oxyron, the Keferns Bars part does not work.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>T<span
+class=postbody1><span style='letter-spacing:0pt'>he demo Aurora 90%/Level 64
+does not work properly.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=postbody1><span style='letter-spacing:0pt'>The demos Final III and Sharp
+do not work properly.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>After
+the conversion group introduction in the game Beyond The Ice Palace / HF, a
+&quot;CPU Halted At $0005&quot; error occurs.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>There
+are some strange bugs/flickers in TRC+TBI Introduction (1990).&nbsp; More
+information below:</p>
+
+<p class=MsoBodyTextIndent2>If you remove the music (JSR $1003), it works... it
+seems to be a $D011 &amp; $80 problem... it seems to be waiting for the
+raster-line that happens with Bit 7 set on the emulator... and that line has
+already passed by the music.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=postbody1><span style='letter-spacing:0pt'>In the game Elevator Action,
+you cannot start a game.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the game Moon Shuttle, on the asteroid level, some of the asteroids are indestructible.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the demo Edge Of Disgrace, there are various graphical glitches.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Sound-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+write-through $D418 to the HardSID, when emulated sound is disabled.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+re-set the HardSID, when you exit the emulator.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the game Loco, when you die (i.e. when your loco-motive breaks down), there is
+no dying noise, just a constant background tone.&nbsp; There should be a dying
+noise, followed by a period of silence, then it waits for the &lt;SPACE BAR&gt;
+key or the Fire button to be pressed, before re-starting the game.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Within
+certain games, e.g. Retrograde, you can sometimes hear a popping sound.&nbsp;
+The S-Express tune demonstrates this very well.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>To
+improve the accuracy of the SID Filter emulation.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Other Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+$LOADPATH saved setting is not updated when running TAP/PRG/P00 files, but it
+is when running D64/G64/T64 files.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+entering/exiting the paused mode, this causes to colour palette to be re-set to
+&quot;Normal&quot;, when it should not automatically do this.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+using 2 joysticks under Windows 2000 (Y-Cable), one of the joysticks always
+draws to the left.&nbsp; This seems to be a bug in the emulator, because it is
+attached to the Virtual C64 Port (i.e. the same player in a game).&nbsp; It
+makes no difference if you swap the ports (ALT + F10) or switch joysticks.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+not crash when selecting a non-existent C64 image file. </p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span>&nbsp;&nbsp;&nbsp;&nbsp;
+When the Palette is set to PAL and the Graphics Filter is set to either
+Anti-Alias or Scale, CCS64 crashes with an Access Violation fault.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span>&nbsp;&nbsp;&nbsp;&nbsp;
+When using the screen-shot functions in CCS64 V3, an image file of only one
+frame is produced, whether the graphic being captured is interlaced or
+non-interlaced.&nbsp; Did the 256-Colour Screen-Shot function in CCS64 V2.0
+BETA always mix two consecutive frames together, irrespective of the graphics
+involved?</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+&quot;Sync To Screen&quot; (VSync) option does not work properly. </p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><u><span
+style='font-size:16.0pt'>2.&nbsp; Developer-Discovered Bug-Fixes Made :</span></u></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Device-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Improved
+1541 read/write head bit-rate emulation.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+CPU emulation starts a random off-set after the VIC-II emulation starts, after
+a system re-set, instead of always starting after the VIC-II chip is re-aligned
+to the base point.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
+random slow-down has been fixed.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Several
+analogue anomalies have been fixed, e.g. Crest's EmuSuxx0r.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Sound-Oriented Bug-Fixes :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span>&nbsp;&nbsp;&nbsp;&nbsp;The
+SID emulation is completely re-set, after a system re-set (both internal
+registers and visible registers are zeroed).</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<h1 align=center style='margin-left:18.0pt;text-align:center'><u>CCS64 V3
+Enhancements Made</u></h1>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><u><span
+style='font-size:16.0pt'>1.&nbsp; User-Requested Enhancements Made :</span></u></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Device-Oriented Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+toggle the Scroll Lock LED, whenever the 1541 Device is being read from/written
+to, as an option.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Support
+for the Comal 80, the Super SnapShot 5, and the Serpentine cartridges.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>A
+setting within the Maximum 1541 Speed option, for not showing the Maximum 1541 Speed
+message, when this option is On.&nbsp; (This is &quot;On &#8211; Quiet&quot;.)</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Graphics-Oriented Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+make the emulator work as a true Windows application with a Windows Windowed
+mode (instead of the DirectX Windowed mode, which did not work correctly for
+everybody).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>The
+ability to choose the actual graphics re-fresh rate, instead of having to use
+third-party graphics re-fresh rate tweaking programs.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Frame-skipping
+for the graphic modes.&nbsp; At the moment, if a machine is not powerful
+enough, the whole execution slows-down.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Full-screen
+anti-aliasing, as an option, in order to remove any blockiness in the graphics
+(i.e. pixelised graphics).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+support the Scale2x graphical filter, but in all of the available graphical
+resolutions (i.e. windowed 1x/2x/3x, full-screen).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+class=postbody1><span style='letter-spacing:0pt'>CRT Monitor and CRT Television
+graphical filters, which include the after-lightening effect.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+class=postbody1><span style='letter-spacing:0pt'>The graphics-drawing routines
+are multi-threaded, for better performance.</span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Sound-Oriented Enhancements</span></b>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+add support for the HardSID sound card, in the same version of CCS64.
+&nbsp;&nbsp;This is so that both HardSID users and non-HardSID users can use
+the same version of CCS64, meaning that there is a consistency of
+functionality. &nbsp;This would also make the development and distribution of
+updated versions of CCS64 a lot easier.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Windows-Oriented Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+be able to drag-and-drop D64/G64/T64/TAP/PRG/P00 files on to the CCS64 window, when
+running CCS64 in windowed mode, which will auto- load/run the file that has
+been dragged-and-dropped.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+be able to save AVI (Audio Video Interleaving) files of emulator activity, with
+both picture and sound content, in the same manner as sound sampling is done at
+the moment.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+be able to have set any joystick Bit N value for any joystick action setting
+(not just the Up/Down/Left/Right/Fire Button 1 joystick actions) within the
+&quot;Define Joystick Special&quot; option.&nbsp; Some joysticks, e.g. the
+Competition Pro USB Joystick, have more than one possible Fire button, which
+must also be selectable/mappable.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>CCS64
+should treat the Keyboard and a DirectInput Device in exactly the same
+manner.&nbsp; When assigning a Joystick Axis/Button, the user should be able to
+press Joystick Buttons/Axes, as well as Keyboard keys.&nbsp; This would also
+solve the problems with some devices that have more than two axes.&nbsp; But,
+this does not solve this Jump 'N' Run problem completely - you could assign,
+for example, a Game Pad Button as the &quot;Up&quot; Axis, but what about games
+that contain both a Jump 'N' Run element and a Side-Scrolling Shooter
+element?&nbsp; You would have to re-assign the &quot;Up&quot; axis several
+times.&nbsp; This problem would be solved by an Alternate Button Selection,
+such as in the MAME emulator.&nbsp; You could then assign the &quot;Up&quot;
+axis to both an Axis and a Button at the same time.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+be able to use more than just the first two controllers within Windows as
+joysticks within CCS64.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+be able to have two sets of key mappings for the Fire button within the
+&quot;Define Joystick KeySet&quot; option &#8211; one without Auto-Fire and one
+with Auto-Fire applied.&nbsp; This is useful for some particular games.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Other Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>There
+is an SDK for net-play, especially for emulators, called Kaillera.&nbsp; Can
+this be implemented in CCS64?</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Two
+new Machine Code Monitor commands, CD and DIR, which support both 8.3 format
+file-names and long file-names, as well as relative file-paths.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Extended
+command syntax in the Machine Code Monitor:&nbsp; BA
+&lt;xxxx&gt;[-&lt;yyyy&gt;] [RWX] [&lt;xx&gt;[-&lt;yy&gt;]].</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Commands
+in the Machine Code Monitor that possibly display long listings can now be
+interrupted by pressing the &lt;Escape&gt; key.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;<b><span
+style='font-size:16.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><u><span
+style='font-size:16.0pt'>2.&nbsp; Developer-Added Enhancements Made :</span></u></b></p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Device-Oriented Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Support
+for the Magic Formel cartridge.</p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Support
+for the Ross, Structured BASIC, and Dela-EP64 cartridges.&nbsp; These have not
+been tested yet, as no CRT images have been located for them.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+the CPU enters halt mode, to show the address that this occurs, and to allow
+the option of either entering the MC Monitor or of performing a hard re-set of
+the system.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Two
+new short-cut key combinations &#8211; Select Next Disk Into Drive 8 (ALT + F5)
+and Select Previous Disk Into Drive 8 (ALT + F6).</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Another
+new short-cut key combination &#8211; Screen-Shot Menu Contents (ALT + SHIFT +
+F2).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Another
+new short-cut key combination &#8211; Warp Speed Toggle (ALT + SHIFT + F3).</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>To
+add a C2N Noise option, which allows the tape loading noise to be heard.</p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>New
+Menu added for configuration of the keyboard mapping, which now can be altered
+to match for example German keyboards where the Z and Y keys are interchanged.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Another
+new short-cut key combination &#8211; Insert Special C64 Key-Stroke (ALT + K).</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Another
+new short-cut key combination &#8211; Sound Recording On/Off (ALT + SHIFT + S).</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Another
+new short-cut key combination &#8211; Video Recording On/Off (ALT + SHIFT + V).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Combined
+the display/collision-detection routines, in order to make these work in a
+synchronised manner, and to allow these to work with 48- and 50- pixel-wide
+sprites. The demo Krestage 3 works perfectly.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span>Several
+PAL artifacts, blurring, etc., have been implemented.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>In
+the Palette sub-menu, new options for Brightness and Contrast have been added.</p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><b><span
+style='font-size:16.0pt'>Windows-Oriented Enhancements :</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Key
+Repetitions are supported.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Registration
+menu options have been added.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Program
+registration information is shown in the About program box.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>New
+program icons.&nbsp; The new main program icon was contributed by Owziee.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Application
+Menus have been added, which link to the appropriate internal Textual Menus.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>When
+valid C64 image file extensions (e.g. D64) are associated in the Windows
+Registry with CCS64, whenever the user double-clicks on one of those files in
+Windows, the file is automatically started within CCS64.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Application
+Menus have been added which use the Windows File Dialog controls for choosing
+files/paths for loading/saving files.&nbsp; The older menu entries have
+remained, for those users who prefer the old-style menus.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>New
+settings in the C64.CFG configuration file, $WINDOWSIZEX / $WINDOWSIZEY, for
+setting the width/height of the Window 1x window in pixels, when CCS64 is ran
+in Windowed mode.&nbsp; This allows the border area to be seen better, which
+some games/demos require (e.g. Krestage 3 requires a display that has a width
+that is a multiple of 400 pixels).</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'>&nbsp;<span
+style='font-size:10.0pt;font-family:Symbol'>&middot;</span><span
+style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Experimental
+mouse support has been added for various F-key options in the internal Textual
+Menus.</p>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

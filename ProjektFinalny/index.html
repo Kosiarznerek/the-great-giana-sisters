@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Style -->
+    <link href="styl/glowny.css" rel="stylesheet">
+
+    <!-- Biblioteki -->
+    <script src="biblioteki/Wektor.js"></script>
+    <script src="biblioteki/Kolizja.js"></script>
+    <script src="biblioteki/Prostokat.js"></script>
+    <script src="biblioteki/Kolo.js"></script>
+    <script src="biblioteki/AnimatorPoklatkowy.js"></script>
+    <script src="biblioteki/Math.js"></script>
+    <script src="biblioteki/SamoporuszajacyProstokat.js"></script>
+    <script src="biblioteki/OscylujacyProstokat.js"></script>
+    <script src="biblioteki/Sleep.js"></script>
+    <script src="biblioteki/AudioKontroler.js"></script>
+
+    <!-- Przeszkody -->
+    <script src="skrypty/przeszkody/StatycznaPrzeszkoda.js"></script>
+    <script src="skrypty/przeszkody/StalowaCegla.js"></script>
+    <script src="skrypty/przeszkody/ZnikajacaCegla.js"></script>
+    <script src="skrypty/przeszkody/Niespodzianka.js"></script>
+    <script src="skrypty/przeszkody/ZnikajacySegment.js"></script>
+
+    <!-- Przeciwnicy -->
+    <script src="skrypty/przeciwnicy/ChodzacyPrzeciwnik.js"></script>
+    <script src="skrypty/przeciwnicy/SkaczacyPrzeciwnik.js"></script>
+    <script src="skrypty/przeciwnicy/Pajak.js"></script>
+    <script src="skrypty/przeciwnicy/Smok.js"></script>
+
+    <!-- Obiekty -->
+    <script src="skrypty/obiekty/Gracz.js"></script>
+    <script src="skrypty/obiekty/Kulka.js"></script>
+    <script src="skrypty/obiekty/Diament.js"></script>
+    <script src="skrypty/obiekty/ElementTla.js"></script>
+    <script src="skrypty/obiekty/Poziom.js"></script>
+    <script src="skrypty/obiekty/Winda.js"></script>
+    <script src="skrypty/obiekty/KontrolerRozgrywki.js"></script>
+
+    <!-- Ukryte w przeszkodach -->
+    <script src="skrypty/ukryteWPrzeszkodach/Diamencik.js"></script>
+    <script src="skrypty/ukryteWPrzeszkodach/UciekajacaNagroda.js"></script>
+
+    <!-- Skrypty -->
+    <script src="skrypty/grafiki.js"></script>
+    <script src="skrypty/audio.js"></script>
+    <script src="skrypty/poziomy.js"></script>
+    <script src="skrypty/glowny.js"></script>
+</head>
+<body>
+<!-- Tytuł i wersja -->
+<hr>
+<h1>The Great Giana Sisters</h1>
+
+<!-- Canvas z gra -->
+<hr/>
+<div id="canvasGra">
+    <h1>Ładowanie gry...</h1>
+</div>
+
+<!-- Sterowanie -->
+<div id="sterowanie">
+    <hr/>
+    <h1>Sterowanie</h1>
+
+    <strong>[A]</strong> Gracz idzie w lewo<br/>
+    <strong>[D]</strong> Gracz idzie w prawo<br/>
+    <strong>[SPACJA]</strong> Gracz skacze w góre<br/>
+    <strong>[P]</strong> Gracz rzuca piłke (jak ją ma)<br/>
+    <strong>[B]</strong> Gracz detonuje bombe (jak ma)<br/>
+    <hr/>
+</div>
+
+<!-- Oszustwa -->
+<div id="oszustwa">
+    <hr/>
+    <h1>Oszustwa z poziomu konsoli</h1>
+    <p>Używanie na własną odpowiedzialność, dostępnie jedynie w celach testowych/zabawy</p>
+
+    <strong>[KONTROLER.uprawnienia.rzutKulka=true]</strong> Przyznaje graczowi prawo do rzutu kulką<br/>
+    <strong>[KONTROLER.uprawnienia.detonacjaBomby=true]</strong> Przyznaje graczowi prawo do jednorazowej detonacji
+    bomby<br/>
+    <strong>[KONTROLER.uprawnienia.wielokrotnaDetonacja=true]</strong> Przyznaje graczowi prawo do wielokrotnej
+    detonacji bomby (detonacjaBomby musi być na true)<br/>
+    <strong>[KONTROLER.uprawnienia.niesmiertelnosc=true]</strong> Wyłącza wykrywanie kolizji z przeciwnikami, życia nie
+    spadają<br/>
+    <strong>[BIERZ_POZ.gracz.transformuj('paralityk')]</strong> Gracz przechodzi w tryb paralityka<br/>
+    <strong>[BIERZ_POZ.gracz.transformuj('normalny')]</strong> Gracz przechodzi w tryb normalny<br/>
+    <strong>[KONTROLER.statystyki.poziom=_wartosc_]</strong> Zmiana poziomu gry (_wartosc_ zastąpić liczbą)<br/>
+    <strong>[KONTROLER.statystyki.czas=_wartosc_]</strong> Zmiana czasu obecnego poziomu gry (_wartosc_ zastąpić liczbą
+    w milisekundach)<br/>
+    <hr/>
+</div>
+
+</body>
+</html>

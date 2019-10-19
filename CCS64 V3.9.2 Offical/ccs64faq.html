@@ -1,0 +1,262 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>CCS64 Frequently Asked Questions</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body>
+
+<h1 align="center">CCS64 Frequently Asked Questions (FAQs)<br> FAQs and their answers</h1>
+
+<p><strong>Index:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <ul>
+      <li><a href="#Real1541"><strong>Where do I connect my real 1541 drive for use with CCS64?</strong></a></li>
+      <li><a href="#When1541"><strong>When will CCS64 support connection to a real 1541 drive?</strong></a></li>
+      <li><a href="#UseB"><strong>Why can't I use my original 1541 disks in my PC 5 1/4&quot;
+        diskdrive (B:)?</strong></a></li>
+      <li><a href="#Sound"><strong>Why don't I get any sound with CCS64?</strong></a></li>
+      <li><a href="#Joystick"><strong>Why doesn't my joystick work with CCS64?</strong></a></li>
+      <li><a href="#DirectDraw"><strong>Why don't I get any graphics display with CCS64 for
+        Win32/DirectX (DirectDraw-Init Error)?</strong></a></li>
+      <li><a href="#Scrollers"><strong>Why doesn't games (scrollers in particular) run smoothly on
+        my computer - even if I have selected a lower screenmode and have a powerful CPU?</strong></a></li>
+      <li><a href="#ChangeDisk"><strong>What should I do when the game asks me to &quot;Insert
+        Disk 2&quot;?</strong></a></li>
+      <li><a href="#LoadForever"><strong>I have successfully started a game, but all I get is a
+        blank or static screen?</strong></a></li>
+      <li><a href="#UseC64"><strong>I have successfully installed CCS64, but how do one use a C64?</strong></a></li>
+      <li><a href="#GameROM"><strong>Where do I get game ROMs for use with CCS64?</strong></a></li>
+      <li><a href="#DontWork"><strong>Why doesn't this particular game work on CCS64?</strong></a></li>
+      <li><a href="#NextVersion"><strong>When will you implement this particular feature and
+        release the next version of CCS64?</strong></a></li>
+    </ul>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="Real1541"></a><strong>Where do I connect my real 1541 drive for use with
+    CCS64?</strong></p>
+    <p>You don't. CCS64 doesn't support connection of any original hardware compatible with
+    C64. Instead the 1541 disk drive is also emulated in software, and behaves as alike the
+    real thing as it is possible. The original 5 1/4&quot; disks is replaces by ordinary PC
+    files, disk images. To transfer your disks to disk images use one of the existing programs
+    available, together with an special cable for the connection. The best program for PC is
+    called &quot;Star Commander&quot;, and is available at the Internet.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="When1541"></a><strong>When will CCS64 support connection to a real 1541 drive?</strong></p>
+    <p>Probably never as there exists very good tools for transferring the data on 1541 disks
+    to system independent file formats (like .D64). As I see it the main benefit of using a
+    real 1541 disk drive connected to the emulator would be to use copy-protected software
+    that uses fast-loaders and/or special formatting that the transferring tools can not
+    handle. But as I am pretty shure that it is theoretically impossible to get the connection
+    100% compatible so that it will support all kind of fast-loaders, I think it is not worth
+    to implement a half support. The support that should be possible is the 1541 normal
+    loading protocol and perhaps some special selected fast-loaders.</p>
+    <p>To understand the problem you have to consider that the 1541 is not just an ordinary
+    device with a specified communication protocol. In fact it is a complete computer of its
+    own and can therefore be re-programmed to send signals in any way and in any speed wanted,
+    and mostly with very little or none handshaking control (controlling that the data
+    actually has been recognized by the C64). A fast-loader normally works in that way that it
+    first sends over a special program to the 1541 and then starts the execution of this
+    program (inside the 1541!). This program has full control of all the hardware that is
+    inside the 1541 and executes on an CPU clocked on 1.0 MHz. On the C64 is also a program
+    executing, that is running fully in parallel with the other program and is synchronized
+    down to the level of some CPU cycles (appr. 1/1000000 seconds) . </p>
+    <p>So the problem is mainly because of the synchronization problem of down to 1/1000000
+    seconds. That kind of synchronization is not supported by any operating system on PC, and
+    neither does the PC's hardware allow that accuracy - for instance the SoundBlaster
+    hardware interrupts the main processing about 50 times per seconds for quite long period
+    when it is moving data from the RAM and reinitializes the looping. To be able to emulate
+    the connection fully you must have a real-time OS and a real-time computer system, where
+    you can be guaranteed not get your program execution to be interrupted by more than
+    1/1000000 seconds. And in a normal PC, your programs are normally interrupted by a lot of
+    things that takes a lot more time than that, like harddisk access, keyboard, mouse, scsi,
+    eide, usb, networks etceteras. For example in Windows 3.1 you can be guaranteed a response
+    time of 1/18 seconds - and in that time the program that is inside the 1541 has crashed
+    for a long time ago, blink blink! </p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="UseB"></a><strong>Why can't I use my original 1541 disks in my PC 5 1/4&quot;
+    diskdrive (B:)?</strong></p>
+    <p>It is technically impossible to read a 1541 disk in a PC diskdrive. The reason is that
+    PC and 1541 uses completely different systems for magnetic recording, MFM versus GCR. Note
+    also that the original 1541 is much more than just a disk drive, in fact it is a complete
+    computer, with its own CPU and RAM/ROM. The PC's diskdrive is just mechanics with simple
+    read/write electronics, with no intelligence of its own.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="Sound"></a><strong>Why don't I get any sound with CCS64?</strong></p>
+    <p>You should ensure that you have the latest drivers for your soundcard installed, and that
+    they are compatible with DirectX. Also ensure that you have the latest version of DirectX
+    installed. Your soundcard may also have different modes of DirectSound interface, of which
+    only some work with CCS64. Enter the Sound-menu in CCS64 and try to change the Sound Device
+    settings, hopefully some other setting will work.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question</strong>:</p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="Joystick"></a><strong>Why doesn't my joystick work with CCS64?</strong></p>
+    <p>Many new advanced joysticks are only designed for use with Windows and DirectX with special
+    drivers.</p>
+    <p>Also ensure that you have calibrated the joysticks correctly in the emulator. In CCS64
+    V2.0 there is a special sub-menu for this purpose.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="DirectDraw"></a><strong>Why don't I get any graphics display with CCS64 for
+    Win32/DirectX (DirectDraw-Init Error)?</strong></p>
+    <p>CCS64 for DirectX uses a double-buffering system for the video display, to minimize
+    possible flicker. This can consume quite a lot of video memory, perhaps your video-card
+    has too little. Different video-modes requires different amount of videomemory, so try
+    with different settings. Also ensure that you have the latest DirectX version and the
+    latest version of drivers for your video-card.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="Scrollers"></a><strong>Why doesn't games (scrollers in particular) run
+    smoothly on my computer - even if I have selected a lower screenmode and have a
+    powerful CPU?</strong></p>
+    <p>The reason is that the PAL C64 is making frames with 50.12 Hz (985248/63/312) and the
+    screenmode you are using is probably not exactly 50.12 Hz but rather perhaps 50.00 Hz.
+    That means that after about 8 seconds (1/0.12) it will be produced one more frame than
+    have been showed, and that frame will never be displayed. And because of the missed frame
+    the scroller will make a visible jump.</p>
+    <p>If your displays refresh rate is faster than 50.12 Hz, perhaps 70.00 Hz, this means
+    that several frames will be displayed twice but others are displayed only once.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="ChangeDisk"></a><strong>What should I do when the game asks me to &quot;Insert
+    Disk 2&quot;?</strong></p>
+    <p>Well, you should insert disk 2 into your virtual 1541 diskdrive. When you started the
+    game you probably &quot;inserted&quot; disk number 1, so the answer lies in the same menu,
+    where it is probably called &quot;select&quot;. In version 1.09 the disk image (probably
+    with .D64 extension) is selected as soon as you look at its contents.</p>
+    <p>Sometimes you could have this message repeating - even if you have selected the correct
+    disk image in CCS64. This is most probably because the normal kind of format for disk
+    images, .D64, doesn't contain all information that is on a real 1541 disk. There are quite
+    many programs for C64 that check for this information to detect whether the correct disk
+    in inserted or not. In this case search the Internet for a better disk image, that either
+    contains the missing information, or where the program check functions are fixed.</p>
+    <p>It could also be the case that you have to little knowledge of the C64 and its
+    equipment to do a correct decision. In this case there are a lot of literature available
+    at the Internet, search for &quot;Project 64&quot;.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="LoadForever"></a><strong>I have successfully started a game, but all I get is
+    a blank or static screen?</strong></p>
+    <p>As the virtual 1541 disk drive is emulated to be as alike as a real 1541 disk, it is
+    also as slow or fast as the real thing. On many games it takes several minutes on a real
+    C64 with a 1541 diskdrive before the game is fully loaded.</p>
+    <p>In Version 3.0 of CCS64, there are several possibilities to speed up the loading
+    procedures. One is to use a fastload ROM-set or cartridge, as you would on a real C64.
+    There is also a emulator fastload functionality that will trap normal loading demands from
+    games which uses the C64 Kernal $FFD5 vector, and then will load the file into virtual in
+    RAM in no-time.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="UseC64"></a><strong>I have successfully installed CCS64, but how do one use a
+    C64?</strong></p>
+    <p>You should really start reading the user manuals and other useful papers for C64. There
+    are a lot of literature available at the Internet, search for &quot;Project 64&quot;.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="GameROM"></a><strong>Where do I get game ROMs for use with CCS64?</strong></p>
+    <p>You don't. ROM stands for Read Only Memory and is normally the basic part of a
+    computers operating system (BIOS). The ROM is an integrated electronic circuit and is
+    located on the computers motherboard, and on expansion cartridges. Games for C64 were most
+    often distributed as 5 1/4&quot; disks or on tapes, as most C64 systems were connected to
+    a 1541 diskdrive or a C2N cassette recorder.</p>
+    <p>In CCS64 are instead disk images and tape images used, as the original media can not be
+    used directly. They are available at the Internet in very large quantities, a good starter
+    is <a href="http://www.c64.com">www.c64.com</a> .</p>
+    <p>You should really start reading the user manuals and other useful papers for C64. There
+    are a lot of literature available at the Internet, search for &quot;Project 64&quot;.</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="DontWork"></a><strong>Why doesn't this particular game work on CCS64?</strong></p>
+    <p>Even though I aim to get CCS64 to be perfect, there may be some programs that doesn't
+    work correctly. The first thing you should try is to see if you could change some of the
+    parameters like disabling the REU or 1541, different reset memory patterns, system modes
+    etceteras. If you have tried all possible combinations and it still doesn't work, then
+    perhaps try with some other emulator, and most importantly - if possible - try the program
+    with a real C64. There are actually a lot of damaged disk and tape images spreading
+    around, that were damaged during the conversion from the c64 media or perhaps lost some
+    information that were on the original C64 media (like copy protection).</p>
+  </blockquote>
+</blockquote>
+
+<p><strong>Question:</strong></p>
+
+<blockquote>
+  <blockquote>
+    <p><a name="NextVersion"></a><strong>When will you implement this particular feature and
+    release the next version of CCS64?</strong></p>
+    <p>I actually do not know, but you can count on that I will do it as fast as possible.
+    This is a one-man project, I am the single author of CCS64 and I try to program everything
+    myself from bottom and up. The project is done solely on my free-time as I have a ordinary
+    work on day-time. </p>
+  </blockquote>
+</blockquote>
+</body>
+</html>

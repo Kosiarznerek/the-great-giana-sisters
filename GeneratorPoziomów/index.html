@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Style -->
+    <link href="style/arkuszZerujacy.css" rel="stylesheet">
+    <link href="style/arkuszGlowny.css" rel="stylesheet">
+
+    <!-- Sktypty -->
+    <script src="skrypty/Kolizja.js"></script>
+    <script src="skrypty/Kolo.js"></script>
+    <script src="skrypty/Punkt.js"></script>
+    <script src="skrypty/Blok.js"></script>
+    <script src="skrypty/glowny.js"></script>
+    <script src="skrypty/grafiki.js"></script>
+</head>
+<body>
+<div id="pojemnik">
+    <!-- Tu w środku będzie canvas -->
+    <h1>Podgląd</h1>
+    <div id="canvasPojemnik">
+    </div>
+    <br/>
+
+    <!-- Tu znajduje się obecnie wybrany blok -->
+    <div id="obecnieWybrany">
+        <h1>Tu pojawi się obecnie wybrany klocek</h1>
+    </div>
+    <br/>
+
+    <!-- Oznaczenia -->
+    <div id="oznaczenia">
+        <h1>Legenda</h1>
+        <ul>
+            <li><b>[S]</b> - Punkt startowy gracza</li>
+            <li><b>[E]</b> - Punkt docelowy gracza</li>
+            <li><b>[C]</b> - Checkpoint</li>
+            <li><b>[G]</b> - Włączenie/Wyłączenie grida</li>
+            <li><b>[D]</b> - Usunięcie klocka</li>
+        </ul>
+    </div>
+    <br/>
+
+    <!-- Kolor tła i legenda -->
+    <div id="kolorTla">
+        <h1>Kolor tła</h1>
+        <input id="inputKolorTla" type="color">
+    </div>
+    <br/>
+
+    <!-- Tu będą znajdowały się wszystkie dostepne bloki -->
+    <div id="dostepneBloki">
+        <h1>Dostępne bloki</h1>
+    </div>
+    <br/><br/>
+
+    <!-- JSON -->
+    <div id="pojemnikJSON">
+        <h1>JSON</h1>
+        <button id="generujJSON">GenerujJSON</button>
+        <button id="wczytajJSON">WczytajJSON</button>
+        <textarea id="daneJSON" placeholder="Wklej lub generuj kod"></textarea>
+    </div>
+</div>
+</body>
+</html>

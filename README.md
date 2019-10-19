@@ -1,1 +1,1 @@
-# the-great-giana-sisters
+# The Great Giana Sisters

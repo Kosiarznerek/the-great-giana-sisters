@@ -1,0 +1,2178 @@
+{
+  "bloki": [
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -24,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -72,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -120,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -168,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -216,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -264,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -312,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -360,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -408,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -456,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -504,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -552,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -600,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -648,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -696,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": -744,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 24,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 72,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 120,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 168,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 216,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 264,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 312,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 360,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 408,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 456,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 504,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 552,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 600,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 648,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 696,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 744,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 792,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 840,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 888,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 936,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 984,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1032,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 384,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 416,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 448,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 480,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 512,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 544,
+        "y": 224
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 424,
+        "y": 104
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 456,
+        "y": 104
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 488,
+        "y": 104
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1080,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1128,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1176,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1224,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1272,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KOMIN_DUZY",
+      "pozycja": {
+        "x": 887.5,
+        "y": 291
+      },
+      "wysokosc": 65,
+      "szerokosc": 65
+    },
+    {
+      "typ": "KOMIN_DUZY",
+      "pozycja": {
+        "x": 1127.5,
+        "y": 291
+      },
+      "wysokosc": 65,
+      "szerokosc": 65
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 1004,
+        "y": 184
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 1036,
+        "y": 184
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 1068,
+        "y": 184
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 1021.5,
+        "y": 152
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 1053.5,
+        "y": 152
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "SOWA",
+      "pozycja": {
+        "x": 1142.5,
+        "y": 259
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "SOWA",
+      "pozycja": {
+        "x": 904.5,
+        "y": 259
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 1320,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 1456,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1504,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1552,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1600,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1648,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1696,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1744,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1792,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1840,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 1888,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 1936,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1952.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1920.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1888.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1856.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1952.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1920.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1888.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1952.5,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 1920.5,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2208.5,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2208.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2208.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 2206.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2254.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2302.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2350.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2240.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2272.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2240.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2046.5,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2078.5,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2110.5,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 2048.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 2096.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2398.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2446.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2494.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2542.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2590.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2638.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2686.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2734.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2782.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2830.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2878.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2926.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 2974.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3022.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3070.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3118.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3166.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3214.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3262.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2644,
+        "y": 244
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2644,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2676,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWA_CEGLA",
+      "pozycja": {
+        "x": 2708,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2740,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2772,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2804,
+        "y": 124
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2676,
+        "y": 244
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2708,
+        "y": 244
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "NIESPODZIANKA",
+      "pozycja": {
+        "x": 2740,
+        "y": 244
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "SOWA",
+      "pozycja": {
+        "x": 2824,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "SOWA",
+      "pozycja": {
+        "x": 2664,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 3310.5,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3292,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3260,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3228,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3292,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3260,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3228,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3292,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3260,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3228,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 228
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3292,
+        "y": 228
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3260,
+        "y": 228
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 196
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3292,
+        "y": 196
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 3324,
+        "y": 164
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 3476,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 3524,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 3676,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_PRAWY",
+      "pozycja": {
+        "x": 3724,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_LEWY",
+      "pozycja": {
+        "x": 3856,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3904,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 3952,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4000,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4048,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4096,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4144,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4192,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4240,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4288,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4336,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4384,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4432,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4480,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4528,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4576,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4624,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4672,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4720,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4768,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4816,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4864,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "KAMIENNY_CENTRALNY",
+      "pozycja": {
+        "x": 4912,
+        "y": 356
+      },
+      "wysokosc": 48,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": -755.5,
+        "y": 54
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": -616.5,
+        "y": 91
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": -278.5,
+        "y": 57
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": -6.5,
+        "y": 90
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 339.5,
+        "y": 53
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 678.5,
+        "y": 83
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 1371.5,
+        "y": 52
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 1602.5,
+        "y": 88
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 2021.5,
+        "y": 60
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 2316.5,
+        "y": 88
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 2879.5,
+        "y": 65
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 3124.5,
+        "y": 94
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 3480.5,
+        "y": 68
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 3838.5,
+        "y": 95
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 4391.5,
+        "y": 63
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_MALA",
+      "pozycja": {
+        "x": 4639.5,
+        "y": 96
+      },
+      "wysokosc": 22,
+      "szerokosc": 48
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 4183.5,
+        "y": 89
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 3599.5,
+        "y": 92
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 2956.5,
+        "y": 121
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 2596.5,
+        "y": 78
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 2182.5,
+        "y": 72
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 1740.5,
+        "y": 87
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 1150.5,
+        "y": 90
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 890.5,
+        "y": 78
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": 195.5,
+        "y": 87
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": -260.5,
+        "y": 118
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "CHMURKA_DUZA",
+      "pozycja": {
+        "x": -498.5,
+        "y": 83
+      },
+      "wysokosc": 22,
+      "szerokosc": 60
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": -682.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 104.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 787.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 1690.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 2949.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 3994.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_MALE",
+      "pozycja": {
+        "x": 4860.5,
+        "y": 321
+      },
+      "wysokosc": 35,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DRZEWKO_DUZE",
+      "pozycja": {
+        "x": 4394.5,
+        "y": 323
+      },
+      "wysokosc": 33,
+      "szerokosc": 120
+    },
+    {
+      "typ": "DRZEWKO_DUZE",
+      "pozycja": {
+        "x": 2474.5,
+        "y": 323
+      },
+      "wysokosc": 33,
+      "szerokosc": 120
+    },
+    {
+      "typ": "DRZEWKO_DUZE",
+      "pozycja": {
+        "x": 987.5,
+        "y": 323
+      },
+      "wysokosc": 33,
+      "szerokosc": 120
+    },
+    {
+      "typ": "DRZEWKO_DUZE",
+      "pozycja": {
+        "x": 423.5,
+        "y": 323
+      },
+      "wysokosc": 33,
+      "szerokosc": 120
+    },
+    {
+      "typ": "DRZEWKO_DUZE",
+      "pozycja": {
+        "x": -479.5,
+        "y": 323
+      },
+      "wysokosc": 33,
+      "szerokosc": 120
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": -235.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 657.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 1251.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 1790.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 2755.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 3106.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 3503.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 3699.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 4077.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "GRZYBEK",
+      "pozycja": {
+        "x": 4626.5,
+        "y": 320
+      },
+      "wysokosc": 36,
+      "szerokosc": 48
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 3436.5,
+        "y": 263
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 3468.5,
+        "y": 237
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 3500.5,
+        "y": 209
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 3532.5,
+        "y": 181
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "DIAMENT",
+      "pozycja": {
+        "x": 3564.5,
+        "y": 155
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACA_CEGLA",
+      "pozycja": {
+        "x": 2844,
+        "y": 244
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 1984.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 2016.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 2048.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2080.5,
+        "y": 260
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2080.5,
+        "y": 292
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "STALOWY_KLOCEK",
+      "pozycja": {
+        "x": 2080.5,
+        "y": 324
+      },
+      "wysokosc": 32,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 2112.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 2144.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZNIKAJACY_SEGMENT",
+      "pozycja": {
+        "x": 2176.5,
+        "y": 260
+      },
+      "wysokosc": 10,
+      "szerokosc": 32
+    },
+    {
+      "typ": "ZAMEK",
+      "pozycja": {
+        "x": 4154.5,
+        "y": 154
+      },
+      "wysokosc": 202,
+      "szerokosc": 240
+    }
+  ],
+  "canvas": {
+    "wysokosc": 400,
+    "szerokosc": 800
+  },
+  "kolorTla": "#aeaeff",
+  "punktStartowy": {
+    "x": 100.5,
+    "y": 199
+  },
+  "punktDocelowy": {
+    "x": 4260,
+    "y": 340
+  },
+  "checkPointy": [
+    {
+      "x": 1266.5,
+      "y": 232
+    },
+    {
+      "x": 3091.5,
+      "y": 215
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvasGra {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+#canvasGra h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#canvasGra canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+#sterowanie, #oszustwa {
+    text-align: center;
+}
+
+@font-face {
+    font-family: PressStart2P;
+    src: url('../czcionki/PressStart2P.ttf');
+}
